@@ -27,7 +27,7 @@ button {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  width: 20vw;
+  max-width: 400px;
 }
 
 .gallery li {
