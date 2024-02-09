@@ -25,12 +25,14 @@ function createBoxes() {
     }
   }
   boxes.append(...boxesArray);
+  inputDiv.value = "";
 }
 
 function destroyBoxes() {
   while (boxes.firstChild) {
     boxes.removeChild(boxes.firstChild);
   }
+  inputDiv.value = "";
 }
 
 createBtn.addEventListener("click", createBoxes);
